@@ -221,6 +221,7 @@ setx ICLOUD_APP_PASSWORD "abcd-efgh-ijkl-mnop"
 | `icloud_calendar_probe.py` | 独立探测脚本：列出你的日历 + 打印未来 7 天日程，用来快速验证凭据与网络 |
 | `index.html` | 单文件前端：月/周/日视图、拖动改期、编辑与删除面板、设置面板（原生 HTML/CSS/JS，无框架无构建） |
 | `requirements.txt` | 依赖：`Flask>=3.0,<4`、`caldav>=3.0`（本项目实测于 caldav 3.3.0） |
+| `LICENSE` | MIT 许可证全文 |
 | `AGENTS.md` | 本项目的开发约定、接口契约与功能边界（改代码前建议先读） |
 | `APPLE_DESIGN.md` | 视觉设计参考 |
 | `events_cache.json` / `sync_token.json` | 运行时生成的本地缓存（已忽略提交，可随时删除） |
@@ -315,7 +316,7 @@ setx ICLOUD_APP_PASSWORD "abcd-efgh-ijkl-mnop"
 
 ## 许可与免责声明
 
-- 本仓库**尚未声明开源许可证**；如需使用、分发或二次开发，请先与作者确认。
+- 本项目以 **MIT 许可证**开源（全文见 [LICENSE](LICENSE)）：可自由使用、修改、分发，需保留版权与许可声明；作者不提供任何担保，也不承担由此产生的责任。
 - 本项目会真实读写你的 iCloud 日历，且**删除不可撤销**；请在测试日历上先验证，风险自负。
 - Apple ID 与 App 专用密码由你自行保管，本项目不会将其发送到任何第三方服务器。
 - 本项目与 Apple 无关联；涉及 iCloud 的使用请遵守 Apple 的服务条款。
