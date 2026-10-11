@@ -3,3 +3,5 @@ __pycache__/
 *.py[cod]
 events_cache.json*
 sync_token.json*
+.kagent/
+
